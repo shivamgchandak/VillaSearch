@@ -1,0 +1,20 @@
+{
+  "name": "villa-search-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "seed": "node seed.js",
+    "test": "node scripts/test.js",
+    "try": "node scripts/tryParser.js",
+    "check-env": "node scripts/checkEnv.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  }
+}
